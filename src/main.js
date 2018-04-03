@@ -99,7 +99,7 @@ module.exports.loop = function () {
         
         var spawningCreep = Game.creeps[mainSpawn.spawning.name];
         mainSpawn.room.visual.text(
-            '🛠️' + spawningCreep.memory.role,
+            '???' + spawningCreep.memory.role,
             mainSpawn.pos.x + 1, 
             mainSpawn.pos.y, 
             {align: 'left', opacity: 0.8});
